@@ -38,7 +38,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Publish Helm charts
-        uses: step-security/helm-gh-pages@main
+        uses: step-security/helm-gh-pages@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 ```
@@ -57,7 +57,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Publish Helm chart
-        uses: step-security/helm-gh-pages@main
+        uses: step-security/helm-gh-pages@v1
         with:
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
           charts_dir: chart
@@ -82,7 +82,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Publish Helm charts
-        uses: step-security/helm-gh-pages@main
+        uses: step-security/helm-gh-pages@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           app_version: 1.16.0
