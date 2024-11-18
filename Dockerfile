@@ -1,6 +1,6 @@
-FROM stefanprodan/alpine-base:latest@sha256:be230171b01adc5e166899785e9419d90d1359d53a690bf72b8d34c05a1e3f6a
+FROM alpine:latest
 
-RUN apk --no-cache add git
+RUN apk add --no-cache ca-certificates curl bash tar jq git
 
 COPY src/entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
