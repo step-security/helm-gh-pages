@@ -16,6 +16,7 @@
 
 set -o errexit
 set -o pipefail
+git config --global --add safe.directory /github/workspace
 
 GITHUB_TOKEN=$1
 CHARTS_DIR=$2
