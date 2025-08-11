@@ -20,7 +20,7 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # v2.7.0
+      - uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4.3.0
       - name: Publish helm chart
         uses: ./
         with:
