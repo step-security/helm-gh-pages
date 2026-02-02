@@ -56,7 +56,7 @@ inputs:
     required: false
 runs:
   using: 'docker'
-  image: 'docker://ghcr.io/step-security/helm-gh-pages:v1.7.6@sha256:b204b7cc5a581f89e2b80ae5c0d8451de55d53bdab6325d0329173a3e81cc7a7' #v1.7.6
+  image: 'docker://ghcr.io/step-security/helm-gh-pages:v1.7.7@sha256:20a44fb4ca9dd6a2da497b86d8b8e2ff52fa2631ff7d27ef05b5ce0183a670a4' #v1.7.7
   args:
     - ${{ inputs.token }}
     - ${{ inputs.charts_dir }}
