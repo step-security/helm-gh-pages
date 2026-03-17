@@ -3,9 +3,9 @@ entries:
   test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-02-02T05:22:41.011384979Z"
+    created: "2026-03-17T16:07:23.228407778Z"
     description: A Helm chart for Kubernetes
-    digest: f61fe2b83e7771d9d3ed106bd97e311644b02033e82e1e1a514ee4b15eb53ef9
+    digest: 0d362d50367e03a2a13d2d499b93862e45b1401645d2ace8df40b38957976ecb
     name: test
     type: application
     urls:
@@ -14,12 +14,12 @@ entries:
   test1:
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2026-02-02T05:22:41.011715532Z"
+    created: "2026-03-17T16:07:23.228776376Z"
     description: A Helm chart for Kubernetes
-    digest: f0e7c7ea64fe7c19bbc4a320df55093dfaab75404e660a45ba222ad4ff1b6885
+    digest: d97c29ae4452a698fc7f4ab966e0d1c39d7900b047abf8a432f6cb5786911994
     name: test1
     type: application
     urls:
     - https://step-security.github.io/helm-gh-pages/test1-0.2.0.tgz
     version: 0.2.0
-generated: "2026-02-02T05:22:41.010876129Z"
+generated: "2026-03-17T16:07:23.22787797Z"
