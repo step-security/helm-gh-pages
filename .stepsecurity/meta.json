@@ -1,0 +1,18 @@
+{
+   "schema_version": "1",
+   "onboarding_type": "copied",
+   "archived": false,
+   "maintained_action_name": "step-security/helm-gh-pages",
+   "upstream_full_repo_name": "stefanprodan/helm-gh-pages",
+   "action_type": "docker",
+   "last_release": {
+     "tag_name": "v1.7.8",
+     "created_at": "2026-04-10T09:06:49Z",
+     "published_at": "2026-04-13T05:25:45Z"
+   },
+   "sync": {
+     "ignore_presets": [
+       "defaults_v1"
+     ]
+   }
+ }
